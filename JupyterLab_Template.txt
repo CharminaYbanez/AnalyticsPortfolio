@@ -1,0 +1,55 @@
+# Project: <Project Name>
+# Author: Charmina
+# Date: <Auto>
+
+# ============================
+# 1. Imports
+# ============================
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set(style="whitegrid")
+
+# ============================
+# 2. Settings
+# ============================
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', 200)
+
+# ============================
+# 3. Load Data
+# ============================
+# Example:
+# df = pd.read_csv('../data_raw/myfile.csv')
+
+# ============================
+# 4. Cleaning
+# ============================
+# df = df.dropna()
+# df['col'] = df['col'].astype(int)
+
+# ============================
+# 5. Exploration
+# ============================
+# df.describe()
+# df.info()
+
+# ============================
+# 6. Visualization
+# ============================
+# plt.figure(figsize=(10,6))
+# sns.histplot(df['col'])
+# plt.show()
+
+# ============================
+# 7. Modeling (optional)
+# ============================
+# from sklearn.model_selection import train_test_split
+# from sklearn.linear_model import LinearRegression
+
+# ============================
+# 8. Save Outputs
+# ============================
+# df.to_csv('../data_clean/cleaned.csv', index=False)
