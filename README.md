@@ -1,104 +1,107 @@
-\# DataProjects
+# 📊 Analytics Portfolio
 
+Welcome to my analytics portfolio!
 
+This repository serves as the central hub for my data analytics case studies. Each project focuses on solving real-world business problems through data analysis, visualization, and actionable recommendations.
 
-A structured workspace for data analysis, experimentation, and learning.
+---
 
-This repository contains Jupyter notebooks, templates, and scripts used for testing environments, exploring datasets, and building reproducible workflows.
+# 🎯 Philosophy
 
+I enjoy solving real-world business problems by transforming data into clear insights and actionable recommendations through thoughtful, well-documented analysis.
 
+My goal is not only to analyze data, but also to communicate findings clearly, support business decisions, and continuously improve my analytical thinking through every project.
 
-\## Project Structure
+---
 
+# 📂 Featured Case Studies
 
+> 🚧 Projects are currently being added.
 
-DataProjects/
+| Case Study | Focus | Tools |
+|------------|-------|-------|
+| Google Data Analytics Capstone | Business Analytics | Python • Tableau |
+| Healthcare Analytics Dashboard | Healthcare Analytics | R • Looker Studio |
+| Retail Sales Performance | Sales Analytics | SQL • Python • Tableau |
+| Customer Segmentation | Marketing Analytics | Python • SQL |
 
-│
+---
 
-├── notebooks/
+# 🛠️ Technical Skills
 
-│   ├── 01\_test\_environment.ipynb
+### Languages
 
-│   └── .ipynb\_checkpoints/
+- SQL
+- Python
+- R
 
-│
+### Data Analysis
 
-├── scripts/
+- pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-│
+### Visualization
 
-├── templates/
+- Tableau
+- Power BI
+- Looker Studio
+- Excel
 
-│
+---
 
-├── data/                # ignored by git
+# 📈 Analytics Workflow
 
-│	data\_raw/
+Every project follows a consistent analytical process:
 
-│	data\_clean/
+1. 🎯 Business Problem
+2. 🏢 Business Context
+3. 👥 Stakeholders
+4. ❓ Business Questions
+5. 📦 Data Assessment
+6. 🧹 Data Cleaning
+7. 📊 Exploratory Data Analysis
+8. 📉 Visualization
+9. 💡 Key Findings
+10. ✅ Recommendations
+11. ⚠️ Limitations
+12. 🚀 Future Improvements
 
-├── JupyterLab\_Template.txt
+---
 
-├── README.md
+# 📖 Analyst Journal
 
-└── .gitignore
+Every case study includes an **Analyst Journal** documenting my analytical thought process, including:
 
+- Assumptions
+- Questions explored
+- Data cleaning decisions
+- Visualization choices
+- Challenges encountered
+- Lessons learned
+- Future improvements
 
+I believe understanding *why* an analytical decision was made is just as valuable as the final result.
 
-\## Getting Started
+---
 
+# 🌱 Currently Building
 
+- Google Data Analytics Professional Certificate
+- End-to-end analytics case studies
+- Business dashboards
+- Portfolio website
+- Business Intelligence skills
 
-\### 1. Clone the repository
+---
 
+# 🌐 Connect
 
+- **GitHub Profile:** https://github.com/CharminaYbanez
+- **Portfolio Website:** https://charminaybanez.github.io/
+- **LinkedIn:** https://www.linkedin.com/in/charminaybanez
 
-git clone https://github.com/CharminaYbanez/DataProjects.git
+---
 
-
-
-\### 2. Create and activate the conda environment
-
-
-
-conda create -n data python=3.11
-
-conda activate data
-
-
-
-\### 3. Launch JupyterLab
-
-
-
-jupyter lab
-
-
-
-\## Tools Used
-
-
-
-\- Python 3.11
-
-\- Conda
-
-\- JupyterLab
-
-\- Git \& GitHub
-
-\- VS Code (optional)
-
-
-
-\## Future Work
-
-
-
-\- Add dataset exploration notebooks
-
-\- Add reusable analysis templates
-
-\- Add scripts for automation
-
+⭐ Thank you for visiting my analytics portfolio. I hope these case studies demonstrate not only my technical skills, but also my approach to solving real-world business problems through thoughtful analysis and clear communication.
