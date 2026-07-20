@@ -1,7 +1,5 @@
 # 📊 Analytics Portfolio
 
-Welcome to my analytics portfolio!
-
 This repository serves as the central hub for my data analytics case studies. Each project focuses on solving real-world business problems through data analysis, visualization, and actionable recommendations.
 
 ---
@@ -10,7 +8,7 @@ This repository serves as the central hub for my data analytics case studies. Ea
 
 I enjoy solving real-world business problems by transforming data into clear insights and actionable recommendations through thoughtful, well-documented analysis.
 
-My goal is not only to analyze data, but also to communicate findings clearly, support business decisions, and continuously improve my analytical thinking through every project.
+I believe effective analytics goes beyond creating dashboards. It involves understanding the business context, communicating findings clearly, and supporting informed decision-making.
 
 ---
 
