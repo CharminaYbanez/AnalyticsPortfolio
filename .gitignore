@@ -1,19 +1,66 @@
+# ============================
 # Python
+# ============================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
+# ============================
 # Jupyter
+# ============================
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
-# Environments
+# ============================
+# Environments and secrets
+# ============================
 .env
 .venv/
+venv/
 data_env/
-data/
+*.env
 
+# ============================
+# Raw and generated data
+# ============================
+data/raw/*
+data/processed/*
+data/database/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/database/.gitkeep
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================
+# Power BI local files
+# ============================
+outputs/demo/alberta_home_insurance_presentation_video.mp4
+outputs/powerbi/*
+*.pbix
+
+# Keep Power BI folder structure if needed
+!outputs/powerbi/.gitkeep
+
+# ============================
+# Optional large media files
+# Uncomment if you do NOT want videos on GitHub
+# ============================
+# outputs/demo/*.mp4
+
+# ============================
 # OS files
+# ============================
 .DS_Store
 Thumbs.db
+desktop.ini
 
+# ============================
 # VS Code
+# ============================
 .vscode/

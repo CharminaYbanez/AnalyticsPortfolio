@@ -1,96 +1,143 @@
 # 📊 Analytics Portfolio
 
-This repository serves as the central hub for my data analytics case studies. Each project focuses on solving real-world business problems through data analysis, visualization, and actionable recommendations.
+Welcome to my data analytics portfolio. This repository showcases end-to-end analytics projects focused on business questions, data validation, visualization, and stakeholder communication.
+
+My goal is to demonstrate not only technical skills, but also the ability to frame a problem, evaluate data quality, build reproducible workflows, communicate findings clearly, and document limitations honestly.
 
 ---
 
-# 🎯 Philosophy
+# 🎯 Analytics Philosophy
 
-I enjoy solving real-world business problems by transforming data into clear insights and actionable recommendations through thoughtful, well-documented analysis.
+I enjoy solving real-world business problems by transforming data into clear insights and decision-support tools.
 
-I believe effective analytics goes beyond creating dashboards. It involves understanding the business context, communicating findings clearly, and supporting informed decision-making.
+For me, effective analytics is not just creating charts or dashboards. It requires:
 
----
-
-# 📂 Featured Case Studies
-
-> 🚧 Projects are currently being added.
-
-| Case Study | Focus | Tools |
-|------------|-------|-------|
-| Google Data Analytics Capstone | Business Analytics | Python • Tableau |
-| Healthcare Analytics Dashboard | Healthcare Analytics | R • Looker Studio |
-| Retail Sales Performance | Sales Analytics | SQL • Python • Tableau |
-| Customer Segmentation | Marketing Analytics | Python • SQL |
+- understanding the business context
+- identifying stakeholders and decision questions
+- validating data before analysis
+- choosing appropriate benchmarks
+- communicating findings clearly
+- documenting assumptions, caveats, and limitations
+- supporting informed decision-making
 
 ---
 
-# 🛠️ Technical Skills
+# 📂 Featured Case Study
 
-### Languages
+## Alberta Home Insurance Premium Pressure Monitor
+
+**Focus:** Insurance affordability, public policy analytics, CPI trend analysis  
+**Tools:** SQL • SQLite • Python • pandas • Power BI • JupyterLab  
+**Time period:** 2016–2025  
+
+This project analyzes Alberta home insurance CPI growth relative to Alberta all-items CPI, Canada home insurance CPI, residential construction-cost context, curated catastrophe events, and an auto insurance CPI sensitivity check.
+
+The project was designed for a provincial public policy / insurance affordability analyst.
+
+**Main decision question:**
+
+> Is Alberta home insurance premium growth unusual enough to warrant deeper affordability, market, or catastrophe-risk review?
+
+**Project highlights:**
+
+- Built a lightweight SQLite warehouse with a date dimension and fact tables
+- Performed SQL data quality checks and created analytical views
+- Used Python to calculate benchmark divergence and cumulative growth
+- Added an auto insurance CPI sensitivity check
+- Built a two-page Power BI dashboard
+- Created a final report, short case study, presentation deck, and dashboard screenshots
+- Documented limitations to avoid causal overclaiming
+
+**Main finding:**
+
+From 2016 to 2025, Alberta home insurance CPI increased by approximately **74.6%**, compared with **27.4%** for Alberta all-items CPI and **64.5%** for Canada home insurance CPI.
+
+The dashboard is designed as a **review-trigger tool**, not a causal proof model.
+
+---
+
+# 🛠️ Technical Skills Demonstrated
+
+## Languages and Querying
 
 - SQL
 - Python
-- R
+- Markdown
 
-### Data Analysis
+## Data Analysis
 
 - pandas
 - NumPy
-- Matplotlib
-- Seaborn
+- data validation
+- benchmark comparison
+- trend analysis
+- sensitivity checking
 
-### Visualization
+## Visualization and BI
 
-- Tableau
 - Power BI
-- Looker Studio
-- Excel
+- Matplotlib
+- dashboard design
+- KPI cards
+- line charts
+- bar charts
+- stakeholder-facing visual storytelling
+
+## Data Workflow
+
+- project scoping
+- data acquisition
+- SQL warehouse design
+- quality checks
+- Python analysis
+- dashboard-ready exports
+- report writing
+- presentation development
 
 ---
 
 # 📈 Analytics Workflow
 
-Every project follows a consistent analytical process:
+My projects follow a structured analytical process:
 
-1. 🎯 Business Problem
-2. 🏢 Business Context
-3. 👥 Stakeholders
-4. ❓ Business Questions
-5. 📦 Data Assessment
-6. 🧹 Data Cleaning
-7. 📊 Exploratory Data Analysis
-8. 📉 Visualization
-9. 💡 Key Findings
-10. ✅ Recommendations
-11. ⚠️ Limitations
-12. 🚀 Future Improvements
+1. Business problem
+2. Stakeholder and decision question
+3. Data assessment
+4. Data cleaning and validation
+5. SQL modeling or transformation
+6. Exploratory and benchmark analysis
+7. Visualization and dashboard design
+8. Key findings
+9. Limitations and caveats
+10. Recommendations and future work
+11. Portfolio packaging
 
 ---
 
-# 📖 Analyst Journal
+# 📖 Documentation Practice
 
-Every case study includes an **Analyst Journal** documenting my analytical thought process, including:
+Each major project includes documentation such as:
 
-- Assumptions
-- Questions explored
-- Data cleaning decisions
-- Visualization choices
-- Challenges encountered
-- Lessons learned
-- Future improvements
+- Session Log
+- Analyst Journal
+- Data Journal
+- Decision Register
+- Final Report
+- Case Study
+- Presentation Outline
+- Interview Walkthrough
 
-I believe understanding *why* an analytical decision was made is just as valuable as the final result.
+I document not only what was done, but why analytical decisions were made.
 
 ---
 
 # 🌱 Currently Building
 
-- Google Data Analytics Professional Certificate
-- End-to-end analytics case studies
-- Business dashboards
-- Portfolio website
-- Business Intelligence skills
+- End-to-end data analytics portfolio projects
+- SQL, Python, and Power BI project workflow
+- Business intelligence dashboards
+- Stakeholder-focused analytics communication
+- Job-ready data analyst project presentations
 
 ---
 
@@ -102,4 +149,4 @@ I believe understanding *why* an analytical decision was made is just as valuabl
 
 ---
 
-⭐ Thank you for visiting my analytics portfolio. I hope these case studies demonstrate not only my technical skills, but also my approach to solving real-world business problems through thoughtful analysis and clear communication.
+⭐ Thank you for visiting my analytics portfolio.
