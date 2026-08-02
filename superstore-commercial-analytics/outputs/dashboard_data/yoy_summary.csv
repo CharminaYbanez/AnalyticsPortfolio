@@ -1,0 +1,5 @@
+order_year,line_item_count,order_count,customer_count,total_sales,total_profit,weighted_profit_margin,loss_making_line_items,loss_making_line_item_share
+2014,1993,969,595,484247.5,49543.97,0.1023,377,0.1892
+2015,2102,1038,573,470532.51,61618.6,0.131,397,0.1889
+2016,2587,1315,638,609205.6,81795.17,0.1343,477,0.1844
+2017,3312,1687,693,733215.26,93439.27,0.1274,620,0.1872

@@ -1,0 +1,5 @@
+region,line_item_count,order_count,customer_count,total_sales,total_profit,weighted_profit_margin,loss_making_line_items,loss_making_line_item_share,loss_making_sales,loss_making_profit
+West,3203,1611,686,725457.82,108418.45,0.1494,318,0.0993,74925.3,-22720.96
+East,2848,1401,674,678781.24,91522.78,0.1348,553,0.1942,160864.01,-49590.61
+Central,2323,1175,629,501239.89,39706.36,0.0792,741,0.319,141282.66,-56314.89
+South,1620,822,512,391721.91,46749.43,0.1193,259,0.1599,91635.18,-27504.83

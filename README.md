@@ -1,152 +1,56 @@
-# 📊 Analytics Portfolio
+# 📊 Analytics Portfolio — Charmina Ybanez
 
-Welcome to my data analytics portfolio. This repository showcases end-to-end analytics projects focused on business questions, data validation, visualization, and stakeholder communication.
+Selected end-to-end analytics projects demonstrating SQL data validation, Python analysis, BI dashboarding, stakeholder framing, and evidence-based business communication.
 
-My goal is to demonstrate not only technical skills, but also the ability to frame a problem, evaluate data quality, build reproducible workflows, communicate findings clearly, and document limitations honestly.
+Portfolio website: [charminaybanez.github.io](https://charminaybanez.github.io/)
 
----
+## 🚀 Featured Projects
 
-# 🎯 Analytics Philosophy
+### Alberta Home Insurance Premium Pressure Monitor
 
-I enjoy solving real-world business problems by transforming data into clear insights and decision-support tools.
+A stakeholder-focused monitoring project assessing whether Alberta home-insurance CPI growth diverged from provincial inflation, national home-insurance trends, and selected cost and catastrophe context.
 
-For me, effective analytics is not just creating charts or dashboards. It requires:
+- **Tools:** SQL, SQLite, Python, pandas, Power BI
+- **Project:** [alberta-home-insurance](alberta-home-insurance/)
 
-- understanding the business context
-- identifying stakeholders and decision questions
-- validating data before analysis
-- choosing appropriate benchmarks
-- communicating findings clearly
-- documenting assumptions, caveats, and limitations
-- supporting informed decision-making
+### Superstore Commercial Profitability Review
 
----
+A commercial analytics mini project using the fictitious Tableau Sample Superstore dataset to identify where sales volume did not translate into proportional profit across product mix, discount tiers, customers, and regions. Findings are observational portfolio insights rather than real-company conclusions.
 
-# 📂 Featured Case Study
+- **Tools:** SQL, SQLite, Python, pandas, Tableau Public
+- **Project:** [superstore-commercial-analytics](superstore-commercial-analytics/)
+- **Dashboard:** [View on Tableau Public](https://public.tableau.com/views/SuperstoreCommercialProfitabilityReview/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-## Alberta Home Insurance Premium Pressure Monitor
+### Healthcare Operations Analytics — ED Throughput Benchmarking
 
-**Focus:** Insurance affordability, public policy analytics, CPI trend analysis  
-**Tools:** SQL • SQLite • Python • pandas • Power BI • JupyterLab  
-**Time period:** 2016–2025  
+An operational-screening project using CMS hospital data and ED-volume peer benchmarks to identify hospitals that may warrant further review. Review-priority flags are screening indicators, not hospital rankings or causal diagnoses.
 
-This project analyzes Alberta home insurance CPI growth relative to Alberta all-items CPI, Canada home insurance CPI, residential construction-cost context, curated catastrophe events, and an auto insurance CPI sensitivity check.
+- **Tools:** SQL, SQLite, Python, pandas, matplotlib, seaborn
+- **Project:** [healthcare-operations-cms](healthcare-operations-cms/)
 
-The project was designed for a provincial public policy / insurance affordability analyst.
+## 🧭 In Progress
 
-**Main decision question:**
+### Olist Marketplace Operations
 
-> Is Alberta home insurance premium growth unusual enough to warrant deeper affordability, market, or catastrophe-risk review?
+A planned senior-level marketplace analytics project focused on multi-table modeling, delivery performance, seller operations, customer reviews, and executive BI.
 
-**Project highlights:**
+## 🗂️ Repository Organization
 
-- Built a lightweight SQLite warehouse with a date dimension and fact tables
-- Performed SQL data quality checks and created analytical views
-- Used Python to calculate benchmark divergence and cumulative growth
-- Added an auto insurance CPI sensitivity check
-- Built a two-page Power BI dashboard
-- Created a final report, short case study, presentation deck, and dashboard screenshots
-- Documented limitations to avoid causal overclaiming
+Each completed project is stored in its own folder with the relevant SQL scripts, notebooks, documentation, outputs, and project README. Raw datasets, processed datasets, local databases, and environment files are excluded from version control where appropriate.
 
-**Main finding:**
+```text
+AnalyticsPortfolio/
+├── alberta-home-insurance/
+├── healthcare-operations-cms/
+├── superstore-commercial-analytics/
+├── olist-marketplace-analytics/
+└── docs/
+```
 
-From 2016 to 2025, Alberta home insurance CPI increased by approximately **74.6%**, compared with **27.4%** for Alberta all-items CPI and **64.5%** for Canada home insurance CPI.
+## ✅ Analytical Standards
 
-The dashboard is designed as a **review-trigger tool**, not a causal proof model.
-
----
-
-# 🛠️ Technical Skills Demonstrated
-
-## Languages and Querying
-
-- SQL
-- Python
-- Markdown
-
-## Data Analysis
-
-- pandas
-- NumPy
-- data validation
-- benchmark comparison
-- trend analysis
-- sensitivity checking
-
-## Visualization and BI
-
-- Power BI
-- Matplotlib
-- dashboard design
-- KPI cards
-- line charts
-- bar charts
-- stakeholder-facing visual storytelling
-
-## Data Workflow
-
-- project scoping
-- data acquisition
-- SQL warehouse design
-- quality checks
-- Python analysis
-- dashboard-ready exports
-- report writing
-- presentation development
-
----
-
-# 📈 Analytics Workflow
-
-My projects follow a structured analytical process:
-
-1. Business problem
-2. Stakeholder and decision question
-3. Data assessment
-4. Data cleaning and validation
-5. SQL modeling or transformation
-6. Exploratory and benchmark analysis
-7. Visualization and dashboard design
-8. Key findings
-9. Limitations and caveats
-10. Recommendations and future work
-11. Portfolio packaging
-
----
-
-# 📖 Documentation Practice
-
-Each major project includes documentation such as:
-
-- Session Log
-- Analyst Journal
-- Data Journal
-- Decision Register
-- Final Report
-- Case Study
-- Presentation Outline
-- Interview Walkthrough
-
-I document not only what was done, but why analytical decisions were made.
-
----
-
-# 🌱 Currently Building
-
-- End-to-end data analytics portfolio projects
-- SQL, Python, and Power BI project workflow
-- Business intelligence dashboards
-- Stakeholder-focused analytics communication
-- Job-ready data analyst project presentations
-
----
-
-# 🌐 Connect
-
-- **GitHub Profile:** https://github.com/CharminaYbanez
-- **Portfolio Website:** https://charminaybanez.github.io/
-- **LinkedIn:** https://www.linkedin.com/in/charminaybanez
-
----
-
-⭐ Thank you for visiting my analytics portfolio.
+- Define the stakeholder and decision question before selecting metrics.
+- Confirm source grain, keys, date coverage, missingness, and joins before analysis.
+- Separate observed evidence, interpretation, recommendations, and limitations.
+- Avoid causal claims when the data supports only descriptive or exploratory analysis.
+- Preserve reproducible SQL, Python, documentation, and dashboard-ready outputs.

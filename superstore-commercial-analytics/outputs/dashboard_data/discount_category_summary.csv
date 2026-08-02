@@ -1,0 +1,13 @@
+category,discount_tier,line_item_count,order_count,total_sales,total_profit,weighted_profit_margin,loss_making_line_items,loss_making_line_item_share,loss_making_sales,loss_making_profit
+Furniture,No Discount,836,739,256025.27,58133.08,0.2271,0,0.0,0.0,0.0
+Furniture,Low Discount,128,122,74192.77,8530.0,0.115,21,0.1641,7387.5,-357.98
+Furniture,Moderate Discount,837,728,316101.37,-4429.37,-0.014,373,0.4456,154817.7,-16795.69
+Furniture,High Discount,320,296,95680.39,-43782.44,-0.4576,320,1.0,95680.39,-43782.44
+Office Supplies,No Discount,3129,2020,442150.0,130506.11,0.2952,0,0.0,0.0,0.0
+Office Supplies,Low Discount,16,16,4324.15,1086.08,0.2512,0,0.0,0.0,0.0
+Office Supplies,Moderate Discount,2201,1661,233049.74,38038.75,0.1632,206,0.0936,52085.53,-9475.12
+Office Supplies,High Discount,680,573,39523.15,-47140.14,-1.1927,680,1.0,39523.15,-47140.14
+Technology,No Discount,833,718,389733.2,132348.42,0.3396,0,0.0,0.0,0.0
+Technology,Low Discount,2,2,3410.95,832.08,0.2439,0,0.0,0.0,0.0
+Technology,Moderate Discount,846,747,318669.92,46358.65,0.1455,131,0.1548,16140.38,-1764.94
+Technology,High Discount,166,147,124339.96,-34084.2,-0.2741,140,0.8434,103072.51,-36814.98

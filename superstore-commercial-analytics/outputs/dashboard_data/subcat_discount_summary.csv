@@ -1,0 +1,37 @@
+category,sub_category,discount_tier,line_item_count,total_sales,total_profit,weighted_profit_margin,loss_making_line_items,loss_making_line_item_share
+Office Supplies,Binders,High Discount,613,36140.61,-38510.5,-1.0656,613,1.0
+Technology,Machines,High Discount,48,73082.8,-29881.39,-0.4089,43,0.8958
+Furniture,Tables,High Discount,122,64774.39,-27295.9,-0.4214,122,1.0
+Furniture,Bookcases,High Discount,60,24261.3,-10541.89,-0.4345,60,1.0
+Technology,Phones,High Discount,109,34337.35,-6385.79,-0.186,97,0.8899
+Office Supplies,Storage,Moderate Discount,316,65989.85,-4249.35,-0.0644,161,0.5095
+Furniture,Tables,Moderate Discount,125,70612.38,-3705.89,-0.0525,81,0.648
+Office Supplies,Supplies,Moderate Discount,73,15114.33,-2907.49,-0.1924,33,0.4521
+Furniture,Chairs,Moderate Discount,408,190754.13,-2453.94,-0.0129,231,0.5662
+Furniture,Bookcases,Moderate Discount,56,31124.19,-425.37,-0.0137,32,0.5714
+Furniture,Bookcases,Low Discount,52,27558.52,1418.99,0.0515,17,0.3269
+Office Supplies,Supplies,No Discount,117,31559.21,1718.39,0.0544,0,0.0
+Furniture,Furnishings,Moderate Discount,248,23610.66,2155.83,0.0913,29,0.1169
+Technology,Copiers,High Discount,9,16919.8,2182.98,0.129,0,0.0
+Office Supplies,Appliances,Moderate Discount,112,21759.29,2497.83,0.1148,0,0.0
+Office Supplies,Envelopes,No Discount,152,10606.45,4976.98,0.4692,0,0.0
+Technology,Machines,Moderate Discount,36,41710.87,5296.24,0.127,1,0.0278
+Office Supplies,Art,No Discount,498,18014.64,5380.6,0.2987,0,0.0
+Furniture,Bookcases,No Discount,60,31935.98,6075.71,0.1902,0,0.0
+Technology,Accessories,Moderate Discount,304,49010.01,6647.38,0.1356,91,0.2993
+Furniture,Chairs,Low Discount,76,46634.25,7111.01,0.1525,4,0.0526
+Office Supplies,Paper,Moderate Discount,513,25321.34,8724.1,0.3445,0,0.0
+Furniture,Tables,No Discount,72,71578.76,13276.3,0.1855,0,0.0
+Technology,Phones,Moderate Discount,469,171789.99,16536.31,0.0963,39,0.0832
+Furniture,Furnishings,No Discount,571,61449.8,16847.97,0.2742,0,0.0
+Technology,Copiers,Moderate Discount,37,56159.05,17878.71,0.3184,0,0.0
+Furniture,Chairs,No Discount,133,91060.73,21933.1,0.2409,0,0.0
+Office Supplies,Appliances,No Discount,271,78066.19,23183.74,0.297,0,0.0
+Office Supplies,Paper,No Discount,857,53157.87,25329.47,0.4765,0,0.0
+Office Supplies,Storage,No Discount,530,157853.76,25528.17,0.1617,0,0.0
+Technology,Machines,No Discount,29,71034.0,27137.82,0.382,0,0.0
+Office Supplies,Binders,Moderate Discount,573,85442.64,29417.81,0.3443,0,0.0
+Technology,Phones,No Discount,311,123879.71,34365.21,0.2774,0,0.0
+Technology,Accessories,No Discount,471,118370.31,35289.25,0.2981,0,0.0
+Technology,Copiers,No Discount,22,76449.18,35556.13,0.4651,0,0.0
+Office Supplies,Binders,No Discount,337,81829.48,39314.45,0.4804,0,0.0

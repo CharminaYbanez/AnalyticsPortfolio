@@ -28,9 +28,17 @@ data/raw/*
 data/processed/*
 data/database/*
 
+# Apply the same exclusions inside project subfolders.
+**/data/raw/*
+**/data/processed/*
+**/data/database/*
+
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/database/.gitkeep
+!**/data/raw/.gitkeep
+!**/data/processed/.gitkeep
+!**/data/database/.gitkeep
 
 # SQLite database files
 *.db

@@ -1,0 +1,4 @@
+category,line_item_count,order_count,total_sales,total_profit,weighted_profit_margin,loss_making_line_items,loss_making_line_item_share,loss_making_sales,loss_making_profit
+Technology,1847,1544,836154.03,145454.95,0.174,271,0.1467,119212.89,-38579.92
+Furniture,2121,1764,741999.8,18451.27,0.0249,714,0.3366,257885.59,-60936.11
+Office Supplies,6026,3742,719047.03,122490.8,0.1704,886,0.147,91608.68,-56615.26

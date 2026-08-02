@@ -1,0 +1,2 @@
+line_item_count,order_count,customer_count,product_count,total_sales,total_profit,weighted_profit_margin,loss_making_line_items,loss_making_line_item_share,loss_making_sales,loss_making_profit
+9994,5009,793,1862,2297200.86,286397.02,0.1247,1871,0.1872,468707.15,-156131.29

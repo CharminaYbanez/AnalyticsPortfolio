@@ -1,7 +1,0 @@
-event_id,event_date,year,year_month,event_name,primary_region,peril_type,revised_loss_cad,loss_source,notes
-1,2020-06-13,2020,2020-06,Calgary Hailstorm,Calgary,Hail / Convective Storm,1300000000.0,IBC (CatIQ),One of Canada's costliest hail events.
-2,2021-07-02,2021,2021-07,Calgary Hailstorm,Calgary,Hail / Convective Storm,700000000.0,IBC (CatIQ),Mentioned by IBC as a major recent Calgary hailstorm. Verify exact event date before loading.
-3,2023-07-15,2023,2023-07,South Calgary Hailstorm,Calgary,Hail / Convective Storm,110000000.0,IBC,"Damaged homes, vehicles and commercial property."
-4,2024-08-05,2024,2024-08,Calgary Hailstorm,Calgary,Hail / Convective Storm,3293000000.0,PERILS / CatIQ,Record revised estimate after claims development.
-5,2025-07-13,2025,2025-07,Calgary Hailstorm,Calgary,Hail / Convective Storm,164000000.0,IBC (CatIQ),"Initial estimate $92M, later revised to $164M."
-6,2025-08-20,2025,2025-08,Brooks Severe Storm,Brooks,Severe Convective Storm,235000000.0,IBC (CatIQ),Included because it is a major Alberta insured-loss event despite affecting multiple perils.
