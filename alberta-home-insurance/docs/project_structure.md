@@ -78,7 +78,7 @@ SQL scripts used to create, validate, and query the warehouse.
 Examples:
 
 - `01_create_tables.sql`
-- `02_load_data_notes.sql`
+- `02_load_data_notes.md`
 - `03_quality_checks.sql`
 - `04_create_views.sql`
 
